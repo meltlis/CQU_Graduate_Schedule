@@ -1,0 +1,10 @@
+[project]
+name = "kb1-schedule-ics"
+version = "0.1.0"
+description = "Convert kb.xlsx class schedule to ICS calendar events"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "icalendar>=7.0.2",
+    "openpyxl>=3.1.5",
+]
