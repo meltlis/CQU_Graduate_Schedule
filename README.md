@@ -1,6 +1,6 @@
 # kb.xlsx -> ICS
 
-使用 `uv` + Python 将 `kb.xlsx` 中的课程表转换为 `kb.ics`。
+使用 `Python 将 `kb.xlsx` 中的课程表转换为 `kb.ics`。
 
 ## 环境准备
 
@@ -9,6 +9,8 @@ uv sync
 ```
 
 ## 生成日历文件
+![alt text](images/f7bb5306c262919e41731c77ba0b8161.jpg)
+将新版mis系统首页的课程表复制粘贴到xlsx文件中即可食用。
 
 ```bash
 uv run python src/kb_to_ics.py \
@@ -17,6 +19,7 @@ uv run python src/kb_to_ics.py \
   --semester-monday 2026-03-02 \
   --timezone Asia/Shanghai
 ```
+semester-monday后面填写学期的第一个周一的日期。
 
 ## 输出规则
 
@@ -40,3 +43,5 @@ uv run python src/kb_to_ics.py \
 - Apple Calendar：`File -> Import`
 - Google Calendar（网页）：`Settings -> Import & export -> Import`
 - Outlook：`Add calendar -> Upload from file`
+
+100% vibe coding. 仅供参考。
