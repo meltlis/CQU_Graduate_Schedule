@@ -1,6 +1,6 @@
 # kb.xlsx -> ICS
 
-使用 `Python 将 `kb.xlsx` 中的课程表转换为 `kb.ics`。
+使用 `Python` 将 `kb.xlsx` 中的课程表转换为 `kb.ics`。
 
 ## 环境准备
 
